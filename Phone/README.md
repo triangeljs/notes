@@ -1,6 +1,6 @@
 # 手机端页面制作
 ## 使用meta标签
-> <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 > 对于此标签还有以下需要分享：
 1. user-scalable=no就一定可以保证页面不可以缩放吗？NO，有些浏览器不吃这一套，还有一招就是minimum-scale=1.0, maximum-scale=1.0 最大与最小缩放比例都设为1.0就可以了。
 2. initial-scale=1.0   初始缩放比例受user-scalable控制吗？不一定，有些浏览器会将user-scalable理解为用户手动缩放，如果user-scalable=no，initial-scale将无法生效。

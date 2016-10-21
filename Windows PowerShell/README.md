@@ -1,5 +1,7 @@
 # Windows PowerShell功能记录
 
+[查看官方文档](http://www.powershelladmin.com/wiki/SSH_from_PowerShell_using_the_SSH.NET_library)
+
 ## 一、Windows PowerShell链接Linux
 
 ### 1、导入SSH模块
